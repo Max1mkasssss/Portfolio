@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+body{ 
+    margin: 0;
+    padding: 0;
+    background-color: var(--background, #282C33);
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Стандарт */
+}
+.wrapper{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.flex{ 
+    display: flex;
+}
+.upper{ 
+    text-transform: uppercase;
+}
+
+
+
+.box{ 
+    margin-top: 15px;
+}
+.box-header{
+    padding: 8px;
+    width: 315px;
+    height: 21px;
+    border: 1px solid #ABB2BF
+}
+.box-main{ 
+    width:  299px;
+    height: 142px;
+    padding: 16px;
+    border: 1px solid #ABB2BF;
+}
+.list{ 
+    gap: 8px;
+    align-items: center;
+}
+.list-item, .text{ 
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+.box-main h3{ 
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+    margin: 0;
+}
+.box-main p{ 
+    margin: 16px 0;
+}
+.box-main input{ 
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--background, #282C33);
+    border: 1px solid var(--primary, #C778DD);
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
